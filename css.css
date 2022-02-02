@@ -1,0 +1,118 @@
+.style {
+    background-color: lightskyblue;
+    background-image:url(/Users/user/Desktop/sakafo/plat.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 10;
+}
+.mlay {
+    width: 350px;
+    border: 15px solid greenyellow ;
+    padding: 1px;
+    margin: 400px;
+} 
+h1 {
+    text-align: center;
+    color: skyblue;
+}
+.text {
+    text-align: center;
+    text-decoration: lightslategrey;
+    text-shadow: 2px 2px;
+}
+.teny {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: linen;
+    text-shadow: 2px 2px black;
+/* en tête fotsiny iny ambony iny*/
+
+}
+img {
+    border-radius: 50%;
+}
+button{
+    background-color: black;
+    border-radius: 8px;
+    color: brown;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    margin: 4px 30px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.button1{
+    background-color: cadetblue;
+    color: cornsilk;
+    border-radius: 3px;
+}
+.button1:hover {
+    background-color: green;
+    color: white;
+}
+.button2 {
+    background-color: cadetblue;
+    color: cornsilk;
+    border-radius: 3px;
+}
+.button2:hover {
+    background-color: green;
+    color: white;
+}
+/*botton fotsiny iny*/
+.sary-mihetsika {
+    animation-name: zoom;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+    z-index: -1;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0.4);
+    }
+
+    to {
+        transform: scale(0.9);
+    }
+}
+/*le animation iny */
+
+input[type=text], select {
+    display: block;
+    width: 100%;
+    padding: 5px 4px;
+    margin: 2px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+
+}
+input[type=submit], select{
+    width: 100%;
+    padding: 2px 3px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: blanchedalmond;
+    color: darkgreen;
+    cursor: pointer;
+    text-align: center;
+    
+
+}
+input[type=submit]:hover{
+    background-color: black;
+}
+div{
+    border-radius: 2px;
+    padding: 20px
+}
+body {
+    background-color: darkslategray;
+}
